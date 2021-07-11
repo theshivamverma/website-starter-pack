@@ -1,0 +1,39 @@
+{
+  "name": "website-starter-pack",
+  "version": "1.0.0",
+  "description": "Get boilerplate code to start your website with vanillaJS",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": "> 0.25%, not dead",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theshivamverma/website-starter-pack.git"
+  },
+  "author": "Shivam Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theshivamverma/website-starter-pack/issues"
+  },
+  "homepage": "https://github.com/theshivamverma/website-starter-pack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
